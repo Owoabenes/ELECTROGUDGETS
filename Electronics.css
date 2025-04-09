@@ -273,6 +273,7 @@ select ::on-hover{
     /* font-weight: bold; */
     border-radius: 2px;
     /* margin: 10px; */
+    list-style: none;
 }
 
 .footer-content{
@@ -282,12 +283,19 @@ select ::on-hover{
     align-items: center;
     width: 50%;
     margin: auto;
+    list-style: none;
 }
 
 .footer-bottom{
     background-color:red;
     color: white;
     font-size: 30px;
+    list-style: none;
+}
+
+@media(max-width:768pdx) {
+
+    
 }
 
 
